@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plainread"
+version = "1.0.0"
+description = "Readability and plain-language report for Markdown or text files"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["readability", "writing", "markdown", "plain-language"]
+dependencies = []
+
+[project.scripts]
+plainread = "plainread.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

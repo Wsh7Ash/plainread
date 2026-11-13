@@ -1,0 +1,28 @@
+{
+  "target": "examples/dense.md",
+  "words": 108,
+  "sentences": 3,
+  "paragraphs": 2,
+  "syllables": 213,
+  "avg_sentence_words": 36.0,
+  "flesch": 3.4,
+  "grade": 21.7,
+  "long_sentences": 2,
+  "long_sentence_share": 0.67,
+  "passive_hits": 9,
+  "hedges": {
+    "very": 2,
+    "somewhat": 1,
+    "perhaps": 1,
+    "arguably": 1
+  },
+  "repeated_openers": [],
+  "overused": [],
+  "score": 0,
+  "band": "hard",
+  "suggestions": [
+    "Split 2 sentence(s) longer than 25 words.",
+    "Rewrite 9 passive construction(s) in active voice.",
+    "Remove or replace 5 filler/hedge word(s)."
+  ]
+}
